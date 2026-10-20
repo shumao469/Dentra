@@ -10,12 +10,6 @@
     ".gitignore": "7266feffae8644a2a7e7b4cee2f0269f6e76b200188b68b02bc67460ba8938ba",
     "CBCTSegReview.py": "264cb7167fad0e88bef6274be86de864c4d9f934d82604dc48df8908c60161b0",
     "CBCTSegReviewLib/__init__.py": "15ec26e3cea5b0a34c14e52f8373fdefc43affcc8e77aba0020298eaa26d84f9",
-    "CBCTSegReviewLib/__pycache__/__init__.cpython-312.pyc": "1ba687cd381988f031819a8448bac38b659e9d702aed510de74c4ae1488d2533",
-    "CBCTSegReviewLib/__pycache__/core.cpython-312.pyc": "863de6d841d3f53fe2a2d2926c1b32111cb8eddc521899165a0c91455d37e727",
-    "CBCTSegReviewLib/__pycache__/draft.cpython-312.pyc": "1f422baeb8a5053f138307c4428fa34462ef075f045b7b80187d47f864e7eb73",
-    "CBCTSegReviewLib/__pycache__/draft_bridge.cpython-312.pyc": "001aef8443a9b749f3da8ec32e07025f154a988b776814276775be81a2e01363",
-    "CBCTSegReviewLib/__pycache__/slicer_adapter.cpython-312.pyc": "0bf595aa62cf193e5614ae89d93619ab781c00eccc7bd38f6bc691d8a15f5242",
-    "CBCTSegReviewLib/__pycache__/toothseg.cpython-312.pyc": "07b1d4dd174180854b0f54d052e7d6da748b063db26ad787c7e4be1ba161800c",
     "CBCTSegReviewLib/core.py": "b298a1799a68455bf74525c25e01e03fa7a7bb8bd6c0771f3e67944f83017ce4",
     "CBCTSegReviewLib/draft.py": "200ed680adadc363c084076977e96e2fab1adda34d7e6cbf708fee692b874a41",
     "CBCTSegReviewLib/draft_bridge.py": "38893c68b765f2c3e68b400206a61a8001f1afb010332f419305460341164d5a",
@@ -35,7 +29,6 @@
     "THIRD_PARTY_NOTICES.md": "8d3da603708af1cacfdd191f7933dccc27540cb4cb02efb84adbbe0be03be5c6",
     "TOOTHSEG_AUDIT.md": "ea108e956bbc3936b9782145edc361b20dcbd0d2e71d39a13aafa9cfe03da3da",
     "VALIDATION.md": "341bbb12dfca8080ebf7ff5bb6c87092e282cbbfc9a13f4a7d23785936ff4cfa",
-    "__pycache__/CBCTSegReview.cpython-312.pyc": "24892f6762ddbd16fcf31e8ffc13f276688407f8125d9e60ab2fdd54f21ec73c",
     "backend/infer.py": "cbe06215b3d888d8d7f08ed6a4c89726d66176f30fad55cffc44382edb7f9751",
     "backend/native_export.py": "465b61ed38cbfbd420ddd9a41f348c95a581d184393b815a5dffaa4f8988e1f6",
     "backend/toothseg_infer.py": "7b1eb9b75b65358254994a0fc6cb3d9df96ecf76c9532567d091c64036b9005e",
@@ -82,5 +75,6 @@
   },
   "github_actions": "NOT_INSTALLED_CURRENT_OAUTH_TOKEN_LACKS_WORKFLOW_SCOPE; run local tests",
   "repository_visibility": "public",
-  "documentation_revision": "illustrated_README_20261020"
+  "documentation_revision": "illustrated_README_20261020",
+  "manifest_scope": "git_tracked_files_only; no ignored runtime caches"
 }
