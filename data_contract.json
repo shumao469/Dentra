@@ -1,0 +1,120 @@
+{
+  "schema": "dentra-review/0.3",
+  "scope": "existing_binary_mask_refinement",
+  "coordinates": {
+    "world": "RAS",
+    "unit": "mm",
+    "array_order": "KJI",
+    "parent_transforms": "reject_without_explicit_coordinate_audit",
+    "label_resampling": "none_in_review; model_internal_resampling_recorded_with_native_CBCT_output"
+  },
+  "identity": {
+    "case_id": "pseudonym_ASCII_1_to_64_characters",
+    "patient_binding": "explicit_human_confirmation_required",
+    "geometry_overlap_proves_identity": false
+  },
+  "segments": {
+    "key": "stable_original_segment_id",
+    "roles": [
+      "tooth",
+      "alveolar_bone",
+      "jaw_bone",
+      "teeth_group",
+      "nerve_canal",
+      "other"
+    ],
+    "tooth_fdi": "explicit_permanent_tooth_FDI_11_to_48_with_valid_quadrant_and_tooth_position",
+    "pixel_label_value_is_fdi": false,
+    "original_names_and_storage_values": "preserve_in_provenance",
+    "new_or_removed_segments": "not_supported_in_current_fixed_ID_review_session"
+  },
+  "critical_review": {
+    "categories": [
+      "thin_plate",
+      "fenestration",
+      "dehiscence"
+    ],
+    "marker_geometry": "point_not_complete_lesion_ROI",
+    "per_category_and_per_marker": true,
+    "statuses": [
+      "reviewed",
+      "not_applicable",
+      "uncertain"
+    ],
+    "required_fields": [
+      "reviewer",
+      "recorded_utc",
+      "note",
+      "revision"
+    ],
+    "marked_region_not_applicable": "does_not_complete_review",
+    "content_changes": "invalidate_previous_review_signature"
+  },
+  "qc": {
+    "fields": [
+      "voxels",
+      "volume_mm3",
+      "outside_reference_voxels",
+      "reference_boundary_voxels",
+      "same_axis_sampling_as_volume",
+      "added_voxels",
+      "removed_voxels",
+      "comparison",
+      "mask_sha256",
+      "baseline_sha256"
+    ],
+    "anatomical_quality": "NOT_AUTOMATICALLY_DETERMINED",
+    "bone_additions": "dedicated_defect_margin_review_warning"
+  },
+  "export": {
+    "mask": "refined.seg.nrrd",
+    "markers": "critical_regions.mrk.json",
+    "receipt": "review.json",
+    "checksums": "SHA256SUMS.txt",
+    "overwrite_original": false,
+    "native_mask_roundtrip_verification": true,
+    "image_included": false,
+    "states": [
+      "IN_PROGRESS",
+      "REVIEW_COMPLETE"
+    ],
+    "training_admission": false,
+    "clinical_validation": false
+  },
+  "automatic_generation": "FIXED_PRETRAINED_MODEL_DRAFT_ONLY",
+  "automatic_smoothing": false,
+  "automatic_hole_filling": false,
+  "training": false,
+  "G04_access": false,
+  "draft_provenance": {
+    "source_kind": "MODEL_DRAFT",
+    "persistent_segmentation_tags": true,
+    "FDI": "ToothSeg_unconfirmed_proposal_separate_from_human_mapping; DentalSegmentator_none",
+    "D_F": false,
+    "aggregate_class_relabeling": "reject_whole_jaw_to_alveolar_bone_and_teeth_group_to_FDI"
+  },
+  "toothseg": {
+    "instances": [
+      "instance_id",
+      "proposed_fdi",
+      "semantic_class",
+      "voxels",
+      "hard_vote_fraction",
+      "semantic_background_fraction",
+      "flags",
+      "confirmed_false"
+    ],
+    "raw_outputs": [
+      "raw_semantic_labels.nrrd",
+      "raw_border_core.nrrd"
+    ],
+    "foreground_invariant": "instances_gt0_equals_native_border_core_gt0",
+    "assembly": [
+      "native_grid_core_components",
+      "foreground_masked_watershed",
+      "hard_semantic_vote"
+    ],
+    "duplicate_proposals": "keep_separate_flag_and_require_human_correction",
+    "vote_fraction_is_calibrated_confidence": false
+  }
+}

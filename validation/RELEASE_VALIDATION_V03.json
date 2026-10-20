@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "tool": "Dentra",
+  "version": "0.3.0",
+  "date": "2026-10-20",
+  "core_tests": 41,
+  "stock_vs_streamed_export_exact_comparisons": 16,
+  "slicer_existing_review_checks": 32,
+  "slicer_aggregate_draft_checks": 16,
+  "slicer_instance_fdi_checks": 16,
+  "registration": "PASS",
+  "real_local_image_engineering_smoke": {
+    "instances": 58,
+    "suggested_fdi": 30,
+    "flagged_instances": 36,
+    "inference_seconds": 497.257,
+    "accuracy_evaluation": false,
+    "native_foreground_preserved": true
+  },
+  "guide_pages": 14,
+  "source_binding": "PASS",
+  "protocols_sha256": {
+    "draft_protocol.json": "ce40efcd1d00dd7906291d0fc373604b6b48158692365d27328c3763e6694d55",
+    "model_manifest.json": "c1c7b001fcbe5d11caa3c6267bcbdd0c81e3089f7ce61a56e46d014974b4bf5c",
+    "toothseg_protocol.json": "ceb8e1332939e285afb1dce6a5226b00ca78f2e097d20be615450fb015851716",
+    "toothseg_manifest.json": "6694b382bf383eaa776b35bea9c9e3d5e379e00e355c6f140badd8ddc75c03ab"
+  },
+  "original_source_preservation": {
+    "status": "PASS",
+    "original_segmentations_unchanged": 6,
+    "original_source_dicom_files_unchanged": 241,
+    "source_dicom_content_digest": "a969e4b996eecef4a3503a650ce12bcc3153f979ee52027640571fdace7f4ff0",
+    "scope": "byte preservation only; no anatomical or patient identity adjudication"
+  },
+  "clinical_validation": false,
+  "training": false,
+  "G04_used": false,
+  "two_point_five_D_used": false,
+  "expert_anatomical_acceptance": "PENDING",
+  "cross_cohort_identity_adjudication": "PENDING_NOT_INFERRED_FROM_FOLDER_NAME",
+  "published_toothseg_pipeline_equivalence": false
+}

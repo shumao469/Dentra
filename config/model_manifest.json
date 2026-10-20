@@ -1,0 +1,477 @@
+{
+  "model_id": "DentalSegmentator_v100_zenodo10829675",
+  "record": "https://zenodo.org/records/10829675",
+  "weights_license": "CC-BY-4.0",
+  "archive_bytes": 229747861,
+  "archive_md5": "b71cd5230168d28a4f71b078265b76be",
+  "archive_sha256": "bc5510cc93bc2100ab1faccb63512e09c1ca326c738b0a9939c074d82b38a4ac",
+  "training_output_relative": "Dataset112_DentalSegmentator_v100/nnUNetTrainer__nnUNetPlans__3d_fullres",
+  "folds": [
+    0
+  ],
+  "checkpoint_name": "checkpoint_final.pth",
+  "files_sha256": {
+    "Dataset112_DentalSegmentator_v100/nnUNetTrainer__nnUNetPlans__3d_fullres/plans.json": "74989aadef6110e9fda8bc4138fe4504eac038da9b2315cc25bfdf9e1f153767",
+    "Dataset112_DentalSegmentator_v100/nnUNetTrainer__nnUNetPlans__3d_fullres/dataset.json": "d2fdf28daef6da66a1ed8af68d27cef7ece76410a958f3827a3097ab6b787aa0",
+    "Dataset112_DentalSegmentator_v100/nnUNetTrainer__nnUNetPlans__3d_fullres/fold_0/checkpoint_final.pth": "a3a91ae0f8d7ab403d8662e47d2f0bdf7fc51e7783b46632841274dff8266c32"
+  },
+  "dataset": {
+    "channel_names": {
+      "0": "CT"
+    },
+    "labels": {
+      "background": 0,
+      "Upper Skull": 1,
+      "Mandible": 2,
+      "Upper Teeth": 3,
+      "Lower Teeth": 4,
+      "Mandibular canal": 5
+    },
+    "numTraining": 470,
+    "file_ending": ".nii.gz"
+  },
+  "plans": {
+    "dataset_name": "Dataset112_DentalSegmentator_v100",
+    "plans_name": "nnUNetPlans",
+    "original_median_spacing_after_transp": [
+      0.43164101243019104,
+      0.31200000643730164,
+      0.43164101243019104
+    ],
+    "original_median_shape_after_transp": [
+      512,
+      746,
+      512
+    ],
+    "image_reader_writer": "SimpleITKIO",
+    "transpose_forward": [
+      1,
+      0,
+      2
+    ],
+    "transpose_backward": [
+      1,
+      0,
+      2
+    ],
+    "configurations": {
+      "2d": {
+        "data_identifier": "nnUNetPlans_2d",
+        "preprocessor_name": "DefaultPreprocessor",
+        "batch_size": 13,
+        "patch_size": [
+          640,
+          384
+        ],
+        "median_image_size_in_voxels": [
+          750.0,
+          512.0
+        ],
+        "spacing": [
+          0.31200000643730164,
+          0.43164101243019104
+        ],
+        "normalization_schemes": [
+          "CTNormalization"
+        ],
+        "use_mask_for_norm": [
+          false
+        ],
+        "UNet_class_name": "PlainConvUNet",
+        "UNet_base_num_features": 32,
+        "n_conv_per_stage_encoder": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "n_conv_per_stage_decoder": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "num_pool_per_axis": [
+          6,
+          6
+        ],
+        "pool_op_kernel_sizes": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            2,
+            2
+          ]
+        ],
+        "conv_kernel_sizes": [
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            3,
+            3
+          ]
+        ],
+        "unet_max_num_features": 512,
+        "resampling_fn_data": "resample_data_or_seg_to_shape",
+        "resampling_fn_seg": "resample_data_or_seg_to_shape",
+        "resampling_fn_data_kwargs": {
+          "is_seg": false,
+          "order": 3,
+          "order_z": 0,
+          "force_separate_z": null
+        },
+        "resampling_fn_seg_kwargs": {
+          "is_seg": true,
+          "order": 1,
+          "order_z": 0,
+          "force_separate_z": null
+        },
+        "resampling_fn_probabilities": "resample_data_or_seg_to_shape",
+        "resampling_fn_probabilities_kwargs": {
+          "is_seg": false,
+          "order": 1,
+          "order_z": 0,
+          "force_separate_z": null
+        },
+        "batch_dice": true
+      },
+      "3d_lowres": {
+        "data_identifier": "nnUNetPlans_3d_lowres",
+        "preprocessor_name": "DefaultPreprocessor",
+        "batch_size": 2,
+        "patch_size": [
+          128,
+          160,
+          112
+        ],
+        "median_image_size_in_voxels": [
+          182,
+          267,
+          182
+        ],
+        "spacing": [
+          1.2145784386442278,
+          0.8779251038775971,
+          1.2145784386442278
+        ],
+        "normalization_schemes": [
+          "CTNormalization"
+        ],
+        "use_mask_for_norm": [
+          false
+        ],
+        "UNet_class_name": "PlainConvUNet",
+        "UNet_base_num_features": 32,
+        "n_conv_per_stage_encoder": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "n_conv_per_stage_decoder": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "num_pool_per_axis": [
+          5,
+          5,
+          4
+        ],
+        "pool_op_kernel_sizes": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        "conv_kernel_sizes": [
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "unet_max_num_features": 320,
+        "resampling_fn_data": "resample_data_or_seg_to_shape",
+        "resampling_fn_seg": "resample_data_or_seg_to_shape",
+        "resampling_fn_data_kwargs": {
+          "is_seg": false,
+          "order": 3,
+          "order_z": 0,
+          "force_separate_z": null
+        },
+        "resampling_fn_seg_kwargs": {
+          "is_seg": true,
+          "order": 1,
+          "order_z": 0,
+          "force_separate_z": null
+        },
+        "resampling_fn_probabilities": "resample_data_or_seg_to_shape",
+        "resampling_fn_probabilities_kwargs": {
+          "is_seg": false,
+          "order": 1,
+          "order_z": 0,
+          "force_separate_z": null
+        },
+        "batch_dice": false,
+        "next_stage": "3d_cascade_fullres"
+      },
+      "3d_fullres": {
+        "data_identifier": "nnUNetPlans_3d_fullres",
+        "preprocessor_name": "DefaultPreprocessor",
+        "batch_size": 2,
+        "patch_size": [
+          128,
+          160,
+          112
+        ],
+        "median_image_size_in_voxels": [
+          512.0,
+          750.0,
+          512.0
+        ],
+        "spacing": [
+          0.43164101243019104,
+          0.31200000643730164,
+          0.43164101243019104
+        ],
+        "normalization_schemes": [
+          "CTNormalization"
+        ],
+        "use_mask_for_norm": [
+          false
+        ],
+        "UNet_class_name": "PlainConvUNet",
+        "UNet_base_num_features": 32,
+        "n_conv_per_stage_encoder": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "n_conv_per_stage_decoder": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "num_pool_per_axis": [
+          5,
+          5,
+          4
+        ],
+        "pool_op_kernel_sizes": [
+          [
+            1,
+            1,
+            1
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            2
+          ],
+          [
+            2,
+            2,
+            1
+          ]
+        ],
+        "conv_kernel_sizes": [
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3
+          ]
+        ],
+        "unet_max_num_features": 320,
+        "resampling_fn_data": "resample_data_or_seg_to_shape",
+        "resampling_fn_seg": "resample_data_or_seg_to_shape",
+        "resampling_fn_data_kwargs": {
+          "is_seg": false,
+          "order": 3,
+          "order_z": 0,
+          "force_separate_z": null
+        },
+        "resampling_fn_seg_kwargs": {
+          "is_seg": true,
+          "order": 1,
+          "order_z": 0,
+          "force_separate_z": null
+        },
+        "resampling_fn_probabilities": "resample_data_or_seg_to_shape",
+        "resampling_fn_probabilities_kwargs": {
+          "is_seg": false,
+          "order": 1,
+          "order_z": 0,
+          "force_separate_z": null
+        },
+        "batch_dice": true
+      },
+      "3d_cascade_fullres": {
+        "inherits_from": "3d_fullres",
+        "previous_stage": "3d_lowres"
+      }
+    },
+    "experiment_planner_used": "ExperimentPlanner",
+    "label_manager": "LabelManager",
+    "foreground_intensity_properties_per_channel": {
+      "0": {
+        "max": 31767.0,
+        "mean": 1178.261474609375,
+        "median": 1190.0,
+        "min": -1024.0,
+        "percentile_00_5": -208.0,
+        "percentile_99_5": 3070.0,
+        "std": 611.7098999023438
+      }
+    }
+  }
+}

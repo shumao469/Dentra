@@ -1,0 +1,47 @@
+{
+  "project": "Dentra",
+  "version": "0.3.0",
+  "date": "2026-10-20",
+  "workstream": "independent_3D_pretrained_draft_and_review",
+  "target_branch": "feature/dentra-toothseg-fdi-v0.3",
+  "data_root_windows": "E:\\3D",
+  "verified_existing_segmentation_files": 6,
+  "verified_existing_segments": 21,
+  "associated_dicom_directories_audited": 2,
+  "patient_identity_adjudication": "PENDING_EXPERT_CONFIRMATION_NOT_INFERRED_FROM_DIRECTORIES",
+  "expert_anatomical_acceptance": "PENDING",
+  "slicer_runtime_tested": "5.10.0 Windows",
+  "semiautomatic_draft": "IMPLEMENTED_FIXED_PUBLIC_MODEL",
+  "model_training": "NOT_RUN_BY_THIS_MODULE_DEVELOPMENT",
+  "prior_2p5d_constraints": {
+    "fixed_five_fold_weights": "DO_NOT_MODIFY",
+    "scoring_teeth": 392,
+    "G04": "ISOLATED_NO_TUNING_NO_FORMAL_EVALUATION",
+    "collapsed_959_tooth_pseudolabels": "DISABLED",
+    "applies_to": "preservation_boundary_only_no_2p5d_model_executed"
+  },
+  "providers": [
+    "DentalSegmentator_v100",
+    "ToothSeg_dual_branch_Dentra_native_assembly"
+  ],
+  "FDI": "unconfirmed_proposals_plus_separate_human_mapping",
+  "real_inference_smoke_v02_historical": {
+    "case": "E3D_PILOT_001",
+    "shape_kji": [
+      241,
+      685,
+      685
+    ],
+    "seconds": 161.31,
+    "diagnostic_evaluation": false
+  },
+  "current_validation": "validation/toothseg_slicer.json and VALIDATION.md; not clinical accuracy",
+  "toothseg_smoke": {
+    "instances": 58,
+    "suggested_fdi": 30,
+    "flagged_instances": 36,
+    "inference_seconds": 497.257,
+    "accuracy_evaluation": false,
+    "native_foreground_preserved": true
+  }
+}

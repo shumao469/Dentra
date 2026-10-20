@@ -1,0 +1,7 @@
+{
+  "distribution": "Ubuntu-22.04",
+  "python": "/home/USER/venvs/dentra_v03/bin/python",
+  "model_root": "/home/USER/models/cbct_draft/DentalSegmentator_v100",
+  "toothseg_model_root": "/home/USER/models/cbct_draft/ToothSeg_14893540",
+  "note": "Copy to local_backend.json and replace USER. Create the venv from a compatible CUDA PyTorch Python; keep existing research environments unchanged."
+}

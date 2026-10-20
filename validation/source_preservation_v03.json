@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "original_segmentations_unchanged": 6,
+  "original_source_dicom_files_unchanged": 241,
+  "source_dicom_content_digest": "a969e4b996eecef4a3503a650ce12bcc3153f979ee52027640571fdace7f4ff0",
+  "scope": "byte preservation only; no anatomical or patient identity adjudication"
+}

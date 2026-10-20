@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "docx_sha256": "2fbdb3f5a83f601511da05d7324ecd0c6bfc64ef38543e83c5c875864be32c04",
+  "pdf_sha256": "bfda70d2bf795c97c96bce141c3a5135f9c43d2aea127190ee4e94267880699f",
+  "pages": 14,
+  "visual_review": "All final 14 page PNGs inspected after final render; readable CJK, no clipping or overlap, visible light-gray table borders, no title rule, correct module title and footer.",
+  "renderer": "packaged render_docx.py with WSL headless LibreOffice and bundled Poppler",
+  "page_png_sha256": {
+    "1": "57238ff9dbc74db40e8cdd3b70e77b67ddf0d11382cf4b6f18a38adf069b0c62",
+    "2": "c96eac0f55c846bdc5c4249cdb30d0e565c0d6d5e250d89c7b61151c5cdb2210",
+    "3": "a69be54a31ebd7b81561883fdb4066aed5e7b1fae112801b819fea179d5c99e1",
+    "4": "394f89862ce4770fbfe04b6b50430187bd51c401b90b411ebb94de110b962cb8",
+    "5": "f70e41b4cb37aad92812190df15f35a9fbdff95c514ddb86796324374b6d40b3",
+    "6": "0580b9e187babde2155e4aee617cc1fe0dd1ed8d00bb64811b553a95b5f96429",
+    "7": "8e7bf3e5dc9ada10c1d2c904e722aa781f459bf587fec94ebfeeeab64ade9aa5",
+    "8": "ee66b3eba9d4d32a23ad951d440f1587f1832c2656f6fada099c84039420a6f2",
+    "9": "1f019df435875776d95b4128e8d1ba24e93a33dfaeaaa4b455cdd0eb5b5fcf3b",
+    "10": "22aa6b154c54d510b6325b4d1b4522fef91f502a68426c9ce4d569e02cb33b08",
+    "11": "d590b1f24760ccd9a24dfd1f470120010613ca3bd2f653b9bd043cd728f39a01",
+    "12": "f83330ae23e79ad98f4cf9a945eb67201e72af7875e93d0e6292468d1ee1d9c7",
+    "13": "398eb46a072b35ccb1968ef5c088b6083f6ba990074a02e01b94ddb997a92274",
+    "14": "44e19d77139626ccb95dc45a329007cc013b9b005611a5a909418eda7fd97741"
+  }
+}

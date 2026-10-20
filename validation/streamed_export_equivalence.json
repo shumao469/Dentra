@@ -1,0 +1,143 @@
+{
+  "status": "PASS",
+  "tests": [
+    {
+      "branch": "semantic",
+      "dtype": "torch.float16",
+      "case": "upsample",
+      "exact_labels_equal": true,
+      "compared_voxels": 13041
+    },
+    {
+      "branch": "semantic",
+      "dtype": "torch.float16",
+      "case": "downsample",
+      "exact_labels_equal": true,
+      "compared_voxels": 2145
+    },
+    {
+      "branch": "semantic",
+      "dtype": "torch.float16",
+      "case": "same",
+      "exact_labels_equal": true,
+      "compared_voxels": 4845
+    },
+    {
+      "branch": "semantic",
+      "dtype": "torch.float16",
+      "case": "tied",
+      "exact_labels_equal": true,
+      "compared_voxels": 13041
+    },
+    {
+      "branch": "semantic",
+      "dtype": "torch.float32",
+      "case": "upsample",
+      "exact_labels_equal": true,
+      "compared_voxels": 13041
+    },
+    {
+      "branch": "semantic",
+      "dtype": "torch.float32",
+      "case": "downsample",
+      "exact_labels_equal": true,
+      "compared_voxels": 2145
+    },
+    {
+      "branch": "semantic",
+      "dtype": "torch.float32",
+      "case": "same",
+      "exact_labels_equal": true,
+      "compared_voxels": 4845
+    },
+    {
+      "branch": "semantic",
+      "dtype": "torch.float32",
+      "case": "tied",
+      "exact_labels_equal": true,
+      "compared_voxels": 13041
+    },
+    {
+      "branch": "border_core",
+      "dtype": "torch.float16",
+      "case": "upsample",
+      "exact_labels_equal": true,
+      "compared_voxels": 13041
+    },
+    {
+      "branch": "border_core",
+      "dtype": "torch.float16",
+      "case": "downsample",
+      "exact_labels_equal": true,
+      "compared_voxels": 2145
+    },
+    {
+      "branch": "border_core",
+      "dtype": "torch.float16",
+      "case": "same",
+      "exact_labels_equal": true,
+      "compared_voxels": 4845
+    },
+    {
+      "branch": "border_core",
+      "dtype": "torch.float16",
+      "case": "tied",
+      "exact_labels_equal": true,
+      "compared_voxels": 13041
+    },
+    {
+      "branch": "border_core",
+      "dtype": "torch.float32",
+      "case": "upsample",
+      "exact_labels_equal": true,
+      "compared_voxels": 13041
+    },
+    {
+      "branch": "border_core",
+      "dtype": "torch.float32",
+      "case": "downsample",
+      "exact_labels_equal": true,
+      "compared_voxels": 2145
+    },
+    {
+      "branch": "border_core",
+      "dtype": "torch.float32",
+      "case": "same",
+      "exact_labels_equal": true,
+      "compared_voxels": 4845
+    },
+    {
+      "branch": "border_core",
+      "dtype": "torch.float32",
+      "case": "tied",
+      "exact_labels_equal": true,
+      "compared_voxels": 13041
+    }
+  ],
+  "method": "fixed_resampler_each_class_then_first_wins_argmax",
+  "scope": "synthetic numerical export equivalence; not model accuracy",
+  "tested_source_sha256": {
+    "CBCTSegReview.py": "264cb7167fad0e88bef6274be86de864c4d9f934d82604dc48df8908c60161b0",
+    "backend/infer.py": "cbe06215b3d888d8d7f08ed6a4c89726d66176f30fad55cffc44382edb7f9751",
+    "backend/native_export.py": "465b61ed38cbfbd420ddd9a41f348c95a581d184393b815a5dffaa4f8988e1f6",
+    "backend/toothseg_infer.py": "7b1eb9b75b65358254994a0fc6cb3d9df96ecf76c9532567d091c64036b9005e",
+    "CBCTSegReviewLib/core.py": "b298a1799a68455bf74525c25e01e03fa7a7bb8bd6c0771f3e67944f83017ce4",
+    "CBCTSegReviewLib/draft.py": "200ed680adadc363c084076977e96e2fab1adda34d7e6cbf708fee692b874a41",
+    "CBCTSegReviewLib/draft_bridge.py": "38893c68b765f2c3e68b400206a61a8001f1afb010332f419305460341164d5a",
+    "CBCTSegReviewLib/slicer_adapter.py": "c73fbd5e6481c95218e3ac05ee490677f48a1560beaf3ac16872ecd51dfe8519",
+    "CBCTSegReviewLib/toothseg.py": "d35ee1ba5a086a5bc1e39d134b22b0e09560114c534b61d610a8973f94890849",
+    "CBCTSegReviewLib/__init__.py": "15ec26e3cea5b0a34c14e52f8373fdefc43affcc8e77aba0020298eaa26d84f9",
+    "tests/check_streamed_resampling.py": "600e62b21fe180eac66ddeca57c3cb5e17ed24aaa299ade7a6b89e154a63a43a",
+    "tests/slicer_draft_integration.py": "a552b8c8014567ed9da2d7cab3c97dd225dae8915117a2ce82efc80a6623d1de",
+    "tests/slicer_existing_data_audit.py": "7f7e5c3e2874a0005fd12cf3d4377a11371bc2c3cf19747e6b6d6a45e4049327",
+    "tests/slicer_integration.py": "0f539ce1c6e1e84da12309fb0719e308d0c3eea9f0f97cf94e4678d0e96032f9",
+    "tests/slicer_registration.py": "15676b6680608d8f4c708232fce1f2ba036b6f16b5cb16b325406d1c73e03032",
+    "tests/slicer_toothseg_integration.py": "415750f4a2aa6b2c12ec7b0eb2ba5ca2cbdf8c6be24ad7fb6f6639a19616639f",
+    "tests/test_core.py": "f79b0465b61a6261dc75a6d5c3c417223f30cfc5190bdd31cf14b6a1088a8a9c",
+    "tests/test_draft_contract.py": "899b9d02e2ac9094f9c2f88a477f314aa14371fecaa1e74aeccba67b5561eb48",
+    "tests/test_toothseg.py": "37f1ce8fa9f661c56fe1e77cf0a18f41163d05f1a020418dfd38a9200a786b76",
+    "tools/install_backend.py": "cb9f08d8ee0afece5dbcc0b0a4f6a8174735927de68d4fe81873a3f89fd53e73",
+    "tools/open_review.py": "60f58f91bb138e25a85fe085015dd70cecdf15514864bd4be4dde3e6fb553344",
+    "tools/run_core_tests.py": "f43748fa71ace73bdbb88f8c99b247018f727716e2b0b647ffbd029ff9226f5d"
+  }
+}

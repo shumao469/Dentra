@@ -1,0 +1,11 @@
+task_id,priority,task,status,acceptance
+R01,P0,Preserve original image masks and native grids,PASS,6 masks and 241 DICOM bytes unchanged
+R02,P0,Freeze ToothSeg weights mapping and source audit,PASS,Archive and 6 selected model files verified
+R03,P0,Conservative instance assembly,PASS_ENGINEERING,Exact native foreground preservation; no cleanup
+R04,P0,Separate critical-region human review,EXPERT_ACCEPTANCE_PENDING,Thin plate fenestration dehiscence and each marker
+R05,P1,FDI proposals and clinician correction,PASS_ENGINEERING,Unknowns and duplicates retained; source proposal separate
+R06,P1,Slicer integration and native version restore,PASS_ENGINEERING,Synthetic contracts and one actual model import
+R07,P1,Word PDF and GitHub handoff,LOCAL_PREPARED_REMOTE_RECEIPT_SEPARATE,14-page guide; verify remote commit and tree
+R08,P2,Patient sequence and cohort adjudication,PENDING_EXPERT,No independence inferred from folder membership
+R09,P2,Manual instance split merge and missing-tooth workflow,DEFERRED_SEPARATE_PROTOCOL,Preserve provenance and doctor-approved anatomical edits
+R10,P3,3D OOF segmentation and D/F baseline,DEFERRED_NO_TRAINING,Patient folds and accepted annotations required

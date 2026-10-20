@@ -1,0 +1,17 @@
+接管 Dentra v0.3 独立3D标注分支。先读README、OPERATION_GUIDE、TOOTHSEG_AUDIT、DEVELOPMENT、data_contract.json和validation实际报告，再检查git status与源码指纹。
+
+已接入两个独立provider：DentalSegmentator五类结构；ToothSeg双分支权重与Dentra保守原网格实例组装及待确认FDI。已完成测试以当前VALIDATION.md和JSON为准，不能拿历史报告证明新代码。
+
+ToothSeg固定Zenodo14893540权重，archive SHA256为803072574d12eb34c9989622a8a1508dc1998be95e9732f9718a4d0d032befd3。toothseg_manifest.json锁定checkpoint、plans、dataset和解剖名称到FDI映射，toothseg_protocol.json锁定算法。实例ID、语义ID、FDI建议和医生确认值不同。重复或unknown不自动合并删除；hard_vote_fraction不是校准置信度。
+
+native-grid六连通核心、前景内watershed、硬语义投票不同于官方完整自纠正。不按体积删碎片，不做牙弓搜索，不强制唯一编号。instances>0须与原生border/core>0完全相同；导入再次验原始分支哈希、几何及前景。不能宣称复现论文性能。
+
+不训练，不自动平滑、闭运算、填洞或扩张前景。模型内部固定预处理和logits重采样如实记录。上游训练mask填洞习惯可能留在权重中；无本地后处理不能证明真实缺损完整。薄骨板、开窗与开裂独立人工复核，内容改动使旧复核过期。
+
+ToothSeg只有牙体，没有牙槽骨或D/F诊断。五类结构保持聚合语义，整颌骨与牙群不能冒充精细骨真值或单牙。MODEL_DRAFT来源在精修及恢复后保留；医生修改不得重写原始模型建议。REVIEW_COMPLETE不是训练准入或临床验证。
+
+2.5D主线、固定五折和392牙分母不动；G04隔离、不调参、不正式评价；959牙塌缩伪标签禁用。跨队列身份去重未闭环，不能因目录位于3D就声称独立外部队列。
+
+本机路径只从未提交的config/local_backend.json读取；示例配置为local_backend.example.json。新增依赖只写独立venv，底层PyTorch只读继承。资源不足停止，不自动改分辨率、patch或扩大搜索。
+
+患者影像、精标、任务、原始日志及权重不推GitHub。合并只提交代码、冻结协议、脱敏验证和指南。涉及来源、坐标、FDI、掩膜或复核逻辑的修改重跑对应测试；保留失败尝试。segment数固定，新增、拆分、合并需另行设计保留来源的流程，不篡改人工解剖标注。
