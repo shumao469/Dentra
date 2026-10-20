@@ -1,0 +1,24 @@
+{
+  "slicer_version": "5.10.0",
+  "synthetic_only": true,
+  "patient_data": false,
+  "model_inference_run": false,
+  "FDI_values": "manually staged UI demonstration, not model predictions",
+  "capture": "unmodified Qt widget grabs from the actual Dentra module",
+  "module_sha256": "264cb7167fad0e88bef6274be86de864c4d9f934d82604dc48df8908c60161b0",
+  "screenshots": {
+    "01_sources_and_draft.png": {
+      "width": 1060,
+      "height": 868
+    },
+    "02_mapping_and_refinement.png": {
+      "width": 1060,
+      "height": 724
+    },
+    "03_critical_review_and_export.png": {
+      "width": 1060,
+      "height": 1064
+    }
+  },
+  "demonstration_fields": "FDI values and pending review-summary text staged to illustrate the actual controls; not model output or clinical evidence"
+}

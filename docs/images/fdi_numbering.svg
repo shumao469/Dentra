@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="530" viewBox="0 0 1240 530" role="img" aria-label="Permanent FDI numbering diagram facing the patient">
+<rect width="100%" height="100%" fill="#f6f9fc"/>
+<style>text{font-family:Arial,DejaVu Sans,sans-serif;fill:#18334d}.title{font-size:30px;font-weight:700}.sub{font-size:17px;fill:#49657b}.label{font-size:20px;font-weight:700}.body{font-size:16px}.small{font-size:15px;fill:#49657b}</style>
+<text x="42" y="52" class="title" text-anchor="start">Permanent FDI numbering</text>
+<text x="42" y="86" class="sub" text-anchor="start">Diagram faces the patient. Always verify the actual scan R/L orientation.</text>
+<text x="70" y="130" class="label" text-anchor="start">Patient RIGHT</text>
+<text x="1170" y="130" class="label" text-anchor="end">Patient LEFT</text>
+<text x="70" y="163" class="body" text-anchor="start">Q1  Upper right</text>
+<rect x="70" y="175" width="54" height="65" rx="10" fill="#d9f0eb" stroke="#0d756f"/>
+<text x="97" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0d756f">18</text>
+<rect x="132" y="175" width="54" height="65" rx="10" fill="#d9f0eb" stroke="#0d756f"/>
+<text x="159" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0d756f">17</text>
+<rect x="194" y="175" width="54" height="65" rx="10" fill="#d9f0eb" stroke="#0d756f"/>
+<text x="221" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0d756f">16</text>
+<rect x="256" y="175" width="54" height="65" rx="10" fill="#d9f0eb" stroke="#0d756f"/>
+<text x="283" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0d756f">15</text>
+<rect x="318" y="175" width="54" height="65" rx="10" fill="#d9f0eb" stroke="#0d756f"/>
+<text x="345" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0d756f">14</text>
+<rect x="380" y="175" width="54" height="65" rx="10" fill="#d9f0eb" stroke="#0d756f"/>
+<text x="407" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0d756f">13</text>
+<rect x="442" y="175" width="54" height="65" rx="10" fill="#d9f0eb" stroke="#0d756f"/>
+<text x="469" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0d756f">12</text>
+<rect x="504" y="175" width="54" height="65" rx="10" fill="#d9f0eb" stroke="#0d756f"/>
+<text x="531" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#0d756f">11</text>
+<text x="670" y="163" class="body" text-anchor="start">Q2  Upper left</text>
+<rect x="670" y="175" width="54" height="65" rx="10" fill="#dfeafb" stroke="#2d5794"/>
+<text x="697" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#2d5794">21</text>
+<rect x="732" y="175" width="54" height="65" rx="10" fill="#dfeafb" stroke="#2d5794"/>
+<text x="759" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#2d5794">22</text>
+<rect x="794" y="175" width="54" height="65" rx="10" fill="#dfeafb" stroke="#2d5794"/>
+<text x="821" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#2d5794">23</text>
+<rect x="856" y="175" width="54" height="65" rx="10" fill="#dfeafb" stroke="#2d5794"/>
+<text x="883" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#2d5794">24</text>
+<rect x="918" y="175" width="54" height="65" rx="10" fill="#dfeafb" stroke="#2d5794"/>
+<text x="945" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#2d5794">25</text>
+<rect x="980" y="175" width="54" height="65" rx="10" fill="#dfeafb" stroke="#2d5794"/>
+<text x="1007" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#2d5794">26</text>
+<rect x="1042" y="175" width="54" height="65" rx="10" fill="#dfeafb" stroke="#2d5794"/>
+<text x="1069" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#2d5794">27</text>
+<rect x="1104" y="175" width="54" height="65" rx="10" fill="#dfeafb" stroke="#2d5794"/>
+<text x="1131" y="217" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#2d5794">28</text>
+<text x="70" y="303" class="body" text-anchor="start">Q4  Lower right</text>
+<rect x="70" y="315" width="54" height="65" rx="10" fill="#fff0dc" stroke="#9a5b13"/>
+<text x="97" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#9a5b13">48</text>
+<rect x="132" y="315" width="54" height="65" rx="10" fill="#fff0dc" stroke="#9a5b13"/>
+<text x="159" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#9a5b13">47</text>
+<rect x="194" y="315" width="54" height="65" rx="10" fill="#fff0dc" stroke="#9a5b13"/>
+<text x="221" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#9a5b13">46</text>
+<rect x="256" y="315" width="54" height="65" rx="10" fill="#fff0dc" stroke="#9a5b13"/>
+<text x="283" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#9a5b13">45</text>
+<rect x="318" y="315" width="54" height="65" rx="10" fill="#fff0dc" stroke="#9a5b13"/>
+<text x="345" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#9a5b13">44</text>
+<rect x="380" y="315" width="54" height="65" rx="10" fill="#fff0dc" stroke="#9a5b13"/>
+<text x="407" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#9a5b13">43</text>
+<rect x="442" y="315" width="54" height="65" rx="10" fill="#fff0dc" stroke="#9a5b13"/>
+<text x="469" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#9a5b13">42</text>
+<rect x="504" y="315" width="54" height="65" rx="10" fill="#fff0dc" stroke="#9a5b13"/>
+<text x="531" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#9a5b13">41</text>
+<text x="670" y="303" class="body" text-anchor="start">Q3  Lower left</text>
+<rect x="670" y="315" width="54" height="65" rx="10" fill="#ebe4f7" stroke="#694a9e"/>
+<text x="697" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#694a9e">31</text>
+<rect x="732" y="315" width="54" height="65" rx="10" fill="#ebe4f7" stroke="#694a9e"/>
+<text x="759" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#694a9e">32</text>
+<rect x="794" y="315" width="54" height="65" rx="10" fill="#ebe4f7" stroke="#694a9e"/>
+<text x="821" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#694a9e">33</text>
+<rect x="856" y="315" width="54" height="65" rx="10" fill="#ebe4f7" stroke="#694a9e"/>
+<text x="883" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#694a9e">34</text>
+<rect x="918" y="315" width="54" height="65" rx="10" fill="#ebe4f7" stroke="#694a9e"/>
+<text x="945" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#694a9e">35</text>
+<rect x="980" y="315" width="54" height="65" rx="10" fill="#ebe4f7" stroke="#694a9e"/>
+<text x="1007" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#694a9e">36</text>
+<rect x="1042" y="315" width="54" height="65" rx="10" fill="#ebe4f7" stroke="#694a9e"/>
+<text x="1069" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#694a9e">37</text>
+<rect x="1104" y="315" width="54" height="65" rx="10" fill="#ebe4f7" stroke="#694a9e"/>
+<text x="1131" y="357" text-anchor="middle" font-family="Arial" font-size="27" font-weight="700" fill="#694a9e">38</text>
+<path d="M620 145v250" stroke="#a4b8cb" stroke-dasharray="5 6"/>
+<text x="42" y="443" class="label" text-anchor="start">FDI proposal ≠ instance ID ≠ raw pixel value ≠ clinician-confirmed FDI</text>
+<text x="42" y="479" class="body" text-anchor="start">Frozen ToothSeg examples: semantic class 1 → FDI 11; semantic class 11 → FDI 23.</text>
+<text x="42" y="510" class="small" text-anchor="start">Permanent teeth only. Deciduous teeth and mixed dentition have not been validated here.</text>
+</svg>

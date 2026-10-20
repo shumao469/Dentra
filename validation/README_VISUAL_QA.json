@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "scope": "README documentation and image validation only; no model run or training",
+  "readme_sha256": "6cf0ec7b3c14d45344d43d0179bfa0f123cea8b650e25c80c146d32c601aacc2",
+  "local_link_targets_checked": 19,
+  "inline_figures": 5,
+  "bash_code_blocks_syntax": "PASS",
+  "json_configuration_block": "PASS",
+  "existing_python_source_hashes_unchanged": true,
+  "screenshots_synthetic_only": true,
+  "visual_inspection": "All three final screenshots and both SVG previews inspected; controls readable, no clipping of panel boundaries; review text areas retain native scrollbars.",
+  "image_files_sha256": {
+    "docs/images/workflow.svg": "59d73aa7c56d783a4596f17414c54ac30a655061fc0124ba4320c0a12da06022",
+    "docs/images/01_sources_and_draft.png": "4caaa7895383c974171a63262990289c3c15c08e78f2074da323738e97c03f0b",
+    "docs/images/02_mapping_and_refinement.png": "3808dacfb95079d6ae1adda1e04533655e4bf079ea37d646686eaba6d4a822f9",
+    "docs/images/fdi_numbering.svg": "83c35eedb92e3c73deb952967693336cc85ebe6bdee97733885e346dc038cb46",
+    "docs/images/03_critical_review_and_export.png": "24b69ef43856e9bd1e0b2d2ac8feb98d31c58552018bfd0ec2275ff860cfa87c"
+  },
+  "powershell_code_blocks_syntax": "PASS; 2 blocks parsed independently with System.Management.Automation.Language.Parser"
+}

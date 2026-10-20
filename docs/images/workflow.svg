@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1240" height="410" viewBox="0 0 1240 410" role="img" aria-label="Dentra workflow from source image to reviewed versions">
+<rect width="100%" height="100%" fill="#f6f9fc"/>
+<style>text{font-family:Arial,DejaVu Sans,sans-serif;fill:#18334d}.title{font-size:30px;font-weight:700}.sub{font-size:17px;fill:#49657b}.label{font-size:20px;font-weight:700}.body{font-size:16px}.small{font-size:15px;fill:#49657b}</style>
+<text x="42" y="53" class="title" text-anchor="start">Dentra workflow</text>
+<text x="42" y="86" class="sub" text-anchor="start">Local drafts and expert refinement in 3D Slicer</text>
+<rect x="40" y="125" width="180" height="160" rx="13" fill="white" stroke="#bdcfdf"/>
+<circle cx="67" cy="151" r="15" fill="#0d756f"/>
+<text x="67" y="157" text-anchor="middle" font-size="17" font-family="Arial" style="fill:#ffffff">1</text>
+<text x="54" y="194" class="label" text-anchor="start">Source image</text>
+<text x="54" y="229" class="body" text-anchor="start">CBCT + identity check</text>
+<text x="54" y="254" class="body" text-anchor="start">or existing expert mask</text>
+<path d="M223 207h12m-5-5 5 5-5 5" fill="none" stroke="#0d756f" stroke-width="2.5"/>
+<rect x="240" y="125" width="180" height="160" rx="13" fill="white" stroke="#bdcfdf"/>
+<circle cx="267" cy="151" r="15" fill="#0d756f"/>
+<text x="267" y="157" text-anchor="middle" font-size="17" font-family="Arial" style="fill:#ffffff">2</text>
+<text x="254" y="194" class="label" text-anchor="start">Create a draft</text>
+<text x="254" y="229" class="body" text-anchor="start">ToothSeg: instances</text>
+<text x="254" y="254" class="body" text-anchor="start">Dental: 5 structures</text>
+<path d="M423 207h12m-5-5 5 5-5 5" fill="none" stroke="#0d756f" stroke-width="2.5"/>
+<rect x="440" y="125" width="180" height="160" rx="13" fill="white" stroke="#bdcfdf"/>
+<circle cx="467" cy="151" r="15" fill="#0d756f"/>
+<text x="467" y="157" text-anchor="middle" font-size="17" font-family="Arial" style="fill:#ffffff">3</text>
+<text x="454" y="194" class="label" text-anchor="start">Role and FDI</text>
+<text x="454" y="229" class="body" text-anchor="start">Tissue role + FDI</text>
+<text x="454" y="254" class="body" text-anchor="start">Review every instance</text>
+<path d="M623 207h12m-5-5 5 5-5 5" fill="none" stroke="#0d756f" stroke-width="2.5"/>
+<rect x="640" y="125" width="180" height="160" rx="13" fill="white" stroke="#bdcfdf"/>
+<circle cx="667" cy="151" r="15" fill="#0d756f"/>
+<text x="667" y="157" text-anchor="middle" font-size="17" font-family="Arial" style="fill:#ffffff">4</text>
+<text x="654" y="194" class="label" text-anchor="start">Refine a copy</text>
+<text x="654" y="229" class="body" text-anchor="start">Paint / Draw / Erase</text>
+<text x="654" y="254" class="body" text-anchor="start">Keep the baseline</text>
+<path d="M823 207h12m-5-5 5 5-5 5" fill="none" stroke="#0d756f" stroke-width="2.5"/>
+<rect x="840" y="125" width="180" height="160" rx="13" fill="white" stroke="#bdcfdf"/>
+<circle cx="867" cy="151" r="15" fill="#0d756f"/>
+<text x="867" y="157" text-anchor="middle" font-size="17" font-family="Arial" style="fill:#ffffff">5</text>
+<text x="854" y="194" class="label" text-anchor="start">Review regions</text>
+<text x="854" y="229" class="body" text-anchor="start">Thin plate / D / F</text>
+<text x="854" y="254" class="body" text-anchor="start">Review each marker</text>
+<path d="M1023 207h12m-5-5 5 5-5 5" fill="none" stroke="#0d756f" stroke-width="2.5"/>
+<rect x="1040" y="125" width="180" height="160" rx="13" fill="white" stroke="#bdcfdf"/>
+<circle cx="1067" cy="151" r="15" fill="#0d756f"/>
+<text x="1067" y="157" text-anchor="middle" font-size="17" font-family="Arial" style="fill:#ffffff">6</text>
+<text x="1054" y="194" class="label" text-anchor="start">QC and export</text>
+<text x="1054" y="229" class="body" text-anchor="start">Native-grid versions</text>
+<text x="1054" y="254" class="body" text-anchor="start">Provenance + hashes</text>
+<text x="42" y="334" class="sub" text-anchor="start">A model draft stays unvalidated until reviewed; review completion is not training admission.</text>
+<text x="42" y="374" class="small" text-anchor="start">No training   /   No G04   /   No automatic smoothing, hole filling or foreground cleanup</text>
+</svg>
